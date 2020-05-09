@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+       "./node_modules/@types",
+      "./typings"
+    ],
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2018",
+    "sourceMap": true,
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/db",
+    "src/bin"
+  ]
+}
