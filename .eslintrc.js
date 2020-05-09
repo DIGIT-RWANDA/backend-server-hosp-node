@@ -1,5 +1,5 @@
 module.exports = {
-    ignorePatterns: ['bin'],
+    ignorePatterns: ['bin', 'commitlint.config.js'],
     extends: [
         'plugin: @typescript-eslint/recommended',
         'prettier',

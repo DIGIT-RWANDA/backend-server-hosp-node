@@ -9,14 +9,20 @@
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" \"test/**/*.{js,jsx,ts,tsx}\" --fix",
     "test": "cross-env TS_NODE_PROJECT=./test/tsconfig.json tap test/**/*.ts",
     "test:ci": "cross-env TS_NODE_PROJECT=./test/tsconfig.json tap --coverage-report=text-lcov test/**/*.ts > lcov.info",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "commitlint": "commitlint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
+    "commitizen": "^4.1.2",
+    "commitlint-config-cz": "^0.13.1",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
