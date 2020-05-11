@@ -1,7 +1,7 @@
 {
-  "name": "@digit/hospital-backend",
-  "version": "1.0.0-alpha.1",
-  "description": "",
+  "name": "@digit/ibitaro-server",
+  "version": "1.0.0",
+  "description": "Backend for hospital application",
   "main": "dist",
   "repository": {
     "type": "git",
