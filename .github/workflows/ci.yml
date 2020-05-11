@@ -66,4 +66,3 @@ name: GitHub ci
                 - name: Run tests
                   run: |
                     yarn test
-            Terms
