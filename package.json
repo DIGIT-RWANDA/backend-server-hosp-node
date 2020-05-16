@@ -19,7 +19,16 @@
   "keywords": [],
   "author": "Aimable niyogakiza <aimadev.soft@gmai.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "fastify": "~2.14.1",
+    "fastify-autoload": "~1.2.2",
+    "fastify-blipp": "~2.3.1",
+    "fastify-cors": "~3.0.3",
+    "fastify-helmet": "~3.0.2",
+    "fastify-http-proxy": "~3.2.0",
+    "fastify-no-icon": "~3.0.0",
+    "fastify-plugin": "~1.6.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
@@ -32,6 +41,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.3",
+    "husky": "~4.2.5"
     "husky": "~4.2.5",
     "lint-staged": "~10.2.2",
     "nodemon": "~2.0.4",
