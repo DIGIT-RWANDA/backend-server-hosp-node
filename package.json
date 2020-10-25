@@ -1,5 +1,5 @@
 {
-  "name": "@digit/ibitaro-server",
+  "name": "backend-server-hosp-node",
   "version": "1.0.0",
   "description": "Backend for hospital application",
   "main": "dist",
@@ -8,6 +8,7 @@
     "url": "https://github.com/DIGIT-RWANDA/backend-server-hosp-node.git"
   },
   "scripts": {
+    "": "",
     "commit": "npx git-cz",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" \"test/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" \"test/**/*.{js,jsx,ts,tsx}\" --fix",
