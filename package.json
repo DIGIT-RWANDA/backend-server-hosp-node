@@ -21,7 +21,7 @@
   "author": "Aimable niyogakiza <aimadev.soft@gmai.com>",
   "license": "MIT",
   "dependencies": {
-    "fastify": "~2.14.1",
+    "fastify": "~2.15.1",
     "fastify-autoload": "~1.2.2",
     "fastify-blipp": "~2.3.1",
     "fastify-cors": "~3.0.3",
